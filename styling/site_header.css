@@ -516,6 +516,7 @@ html {
   width: 100%; }
 
 .site-header {
+  background-color: #6421ff;
   position: relative; }
 
 .theme-container:before {
@@ -825,6 +826,7 @@ nav .link-title:last-child {
   width: 40%; }
 
 .logo-wrap {
+  background-color: #6421ff;
   max-width: 100%;
   float: left;
   padding-left: 0px;
@@ -851,26 +853,26 @@ nav .link-title:last-child {
   text-align: left; }
 
 .logo {
-  font-family: 'Big Noodle', bold, sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 30px;
   font-style: normal;
   font-weight: 400;
   line-height: 22px;
   padding-bottom: 0px;
-  padding-left: 0%;
+  padding-left: 2%;
   padding-right: 0%;
   padding-top: 0px;
     text-transform: uppercase; 
     display: inline-block;   }
   .logo,
   .logo a {
-    color: #424242;
+    color: #ffffff;
     display: inline-block; }
   .logo a:hover {
-    color: #6421ff;
+    color: #999 ;
     font-style: normal;
     font-weight: 400;
-    text-decoration: underline;
+    text-decoration: bold;
     text-transform: uppercase; }
 
 .logo-secondary {
@@ -889,11 +891,13 @@ nav .link-title:last-child {
     color: #ccc; }
   .logo-secondary a:hover {
     color: #ccc;
-    font-style: normal;
+    font-style: bold;
     font-weight: 400;
+    font-style: bold;
     text-transform: uppercase; }
 
 nav {
+  background-color:#6421ff;
   float: right;
   max-width: 100%;
   padding-bottom: 37px;
@@ -901,51 +905,52 @@ nav {
   width: 100%; }
   nav .gallery-title a {
     color: #B0E2E0;
-    font-family: 'Big Noodle', bold, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
     line-height: 28px;
     text-transform: uppercase; }
     nav .gallery-title a:hover {
-      color: #111;
+      color: #ffffff;
       font-style: normal;
       font-weight: 600;
       text-transform: uppercase; }
     nav .gallery-title a.active {
-      color: #111;
+      color: #ffffff;
       font-style: normal;
       font-weight: 600;
       text-transform: uppercase; }
   nav .project-title a {
     color: #aaa;
-    font-family: 'Big Noodle', bold, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
     line-height: 28px;
     text-transform: uppercase; }
     nav .project-title a:hover {
-      color: #111;
+      color: #ffffff;
       font-style: normal;
       font-weight: 600;
       text-transform: uppercase; }
     nav .project-title a.active {
-      color: #111;
+      color: #fff;
       font-style: normal;
       font-weight: 600;
       text-transform: uppercase; }
   nav .page-title a {
-    color: #000000;
-    font-family: 'Big Noodle', bold, sans-serif;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
     font-style: normal;
     font-weight: bold;
     line-height: 28px;
     text-transform: uppercase; }
     nav .page-title a:hover {
-      color: #6421ff;
+      color:#999;
       font-style: normal;
+      font-weight: bold;
       font-weight: 400;
       text-transform: uppercase; }
     nav .page-title a.active {
@@ -956,14 +961,14 @@ nav {
       text-transform: uppercase; }
   nav .link-title a {
     color: #B8F5EC;
-    font-family: 'Big Noodle', bold, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
     text-transform: uppercase; }
     nav .link-title a:hover {
-      color: #111;
+      color: #ffffff;
       font-style: normal;
       font-weight: 400;
       text-transform: uppercase; }
@@ -976,10 +981,10 @@ nav {
     padding-left: 10px;
     padding-right: 0px; }
   .pf-nav-social a:hover svg {
-    fill: #6421ff;
+    fill: #999;
     opacity: 1; }
   .pf-nav-social svg {
-    fill: #000000;
+    fill: #FFFFFF;
     height: 31px;
     opacity: 1;
     width: 31px; }
@@ -1004,7 +1009,7 @@ nav {
     padding-left: 0px;
     padding-right: 15px; }
   .pf-footer-social a:hover svg {
-    fill: #111;
+    fill: #aaa;
     opacity: 1; }
   .pf-footer-social svg {
     fill: #aaa;
@@ -1032,7 +1037,7 @@ nav {
     padding-left: 0px;
     padding-right: 15px; }
   .masthead-social a:hover svg {
-    fill: #ffffff;
+    fill: #aaa;
     opacity: 1; }
   .masthead-social svg {
     fill: #ffffff;
@@ -1266,8 +1271,9 @@ nav {
     padding: 0;
     width: 100%; }
   .site-header {
-    padding: 40px 5%; }
+    padding: 0px 5%; }
   .logo-wrap {
+    background-color: #6421ff;
     max-width: 100%;
     padding: 0;
     width: 100%; }
@@ -1288,7 +1294,7 @@ nav {
   .hamburger-click-area {
     display: block; }
   .hamburger i {
-    background-color: #000000; }
+    background-color: #FFFFFF; }
   main,
   .site-container {
     width: 100%; }
@@ -1416,6 +1422,7 @@ nav {
   .close-responsive-button {
     top: 30px; }
   .site-header {
+    background-color: #6421ff;
     padding-bottom: 30px;
     padding-top: 30px; }
   .logo {
