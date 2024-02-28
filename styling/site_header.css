@@ -901,7 +901,7 @@ nav {
   width: 100%; }
   nav .gallery-title a {
     color: #B0E2E0;
-    font-family: vcsm;
+    font-family: 'Big Noodle', bold, sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -919,7 +919,7 @@ nav {
       text-transform: uppercase; }
   nav .project-title a {
     color: #aaa;
-    font-family: vcsm;
+    font-family: 'Big Noodle', bold, sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -937,10 +937,10 @@ nav {
       text-transform: uppercase; }
   nav .page-title a {
     color: #000000;
-    font-family: zddb;
+    font-family: 'Big Noodle', bold, sans-serif;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: bold;
     line-height: 28px;
     text-transform: uppercase; }
     nav .page-title a:hover {
@@ -956,7 +956,7 @@ nav {
       text-transform: uppercase; }
   nav .link-title a {
     color: #B8F5EC;
-    font-family: bhmj;
+    font-family: 'Big Noodle', bold, sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -1187,7 +1187,7 @@ nav {
     line-height: 35px; } }
 
 .site-footer {
-  font-family: vcsm;
+  font-family: 'Big Noodle', bold, sans-serif;
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
@@ -1218,7 +1218,7 @@ nav {
     padding-top: 25px; } }
 
 .cookie-banner {
-  font-family: vcsm;
+  font-family: 'Big Noodle', bold, sans-serif;
   width: 100%; }
   .cookie-banner .close-btn {
     cursor: pointer; }
@@ -1226,7 +1226,7 @@ nav {
 .lightbox-content {
   height: 100%; }
   .lightbox-content .grid__image-caption {
-    font-family: vcsm; }
+    font-family: 'Big Noodle', bold, sans-serif; }
 
 #lightbox-wrap,
 #lightbox-inner-wrap {
@@ -1234,7 +1234,7 @@ nav {
 
 .grid__image-caption,
 .grid__image-caption-lightbox {
-  font-family: vcsm; }
+  font-family: 'Big Noodle', bold, sans-serif; }
 
 .hamburger-click-area {
   -webkit-transform: translateY(-50%);
@@ -1603,7 +1603,7 @@ nav {
   .project-cover .date {
     color: #fff;
     float: left;
-    font-family: vcsm;
+    font-family: 'Big Noodle', bold, sans-serif;
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
@@ -1618,7 +1618,7 @@ nav {
   .project-cover .custom1 {
     color: #fff;
     float: left;
-    font-family: vcsm;
+    font-family: 'Big Noodle', bold, sans-serif;
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
@@ -1633,7 +1633,7 @@ nav {
   .project-cover .custom2 {
     color: #fff;
     float: left;
-    font-family: vcsm;
+    font-family: 'Big Noodle', bold, sans-serif;
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
@@ -1648,7 +1648,7 @@ nav {
   .project-cover .description {
     color: #fff;
     float: left;
-    font-family: vcsm;
+    font-family: 'Big Noodle', bold, sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -1796,7 +1796,7 @@ nav {
   text-align: center; }
   .back-to-top a {
     color: #999;
-    font-family: vcsm;
+    font-family: 'Big Noodle', bold, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
