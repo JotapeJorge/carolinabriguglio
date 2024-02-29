@@ -516,7 +516,6 @@ html {
   width: 100%; }
 
 .site-header {
-  background-color: #6421ff;
   position: relative; }
 
 .theme-container:before {
@@ -537,6 +536,7 @@ html {
   display: none; }
 
 .preserve-whitespace {
+  
   white-space: pre-wrap; }
 
 .preserve-whitespace--nowrap {
@@ -826,7 +826,7 @@ nav .link-title:last-child {
   width: 40%; }
 
 .logo-wrap {
-  background-color: #6421ff;
+  font-style: bold;
   max-width: 100%;
   float: left;
   padding-left: 0px;
@@ -855,8 +855,9 @@ nav .link-title:last-child {
 .logo {
   font-family: 'Courier New', Courier, monospace;
   font-size: 30px;
-  font-style: normal;
-  font-weight: 400;
+  font-style: bold;
+  font-weight: bold;
+  font-weight: 600;
   line-height: 22px;
   padding-bottom: 0px;
   padding-left: 2%;
@@ -866,7 +867,8 @@ nav .link-title:last-child {
     display: inline-block;   }
   .logo,
   .logo a {
-    color: #ffffff;
+    color:#6421ff;
+    font-style:  bold;
     display: inline-block; }
   .logo a:hover {
     color: #999 ;
@@ -897,7 +899,6 @@ nav .link-title:last-child {
     text-transform: uppercase; }
 
 nav {
-  background-color:#6421ff;
   float: right;
   max-width: 100%;
   padding-bottom: 37px;
@@ -912,51 +913,54 @@ nav {
     line-height: 28px;
     text-transform: uppercase; }
     nav .gallery-title a:hover {
-      color: #ffffff;
+      color: #999;
       font-style: normal;
       font-weight: 600;
       text-transform: uppercase; }
     nav .gallery-title a.active {
-      color: #ffffff;
-      font-style: normal;
-      font-weight: 600;
+      color: #6421ff;
+      font-style: bold;
+      font-weight: bold;
+      font-weight: 800;
       text-transform: uppercase; }
   nav .project-title a {
     color: #aaa;
     font-family: 'Courier New', Courier, monospace;
     font-size: 14px;
-    font-style: normal;
+    font-weight: bold;
     font-weight: 600;
     line-height: 28px;
     text-transform: uppercase; }
     nav .project-title a:hover {
-      color: #ffffff;
+      color: #999;
       font-style: normal;
       font-weight: 600;
       text-transform: uppercase; }
     nav .project-title a.active {
-      color: #fff;
+      color: #6421ff;
       font-style: normal;
-      font-weight: 600;
+      font-weight: bold;
+      font-weight: 700;
       text-transform: uppercase; }
   nav .page-title a {
-    color: #ffffff;
+    color:#6421ff;
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
-    font-style: normal;
+    font-style: bold;
     font-weight: bold;
+    font-weight: 400;
     line-height: 28px;
     text-transform: uppercase; }
     nav .page-title a:hover {
       color:#999;
-      font-style: normal;
+      font-style: bold;
       font-weight: bold;
       font-weight: 400;
       text-transform: uppercase; }
     nav .page-title a.active {
-      color: #6421ff ;
-;
-      font-style: normal;
+      color: #6421ff ;;
+      font-style: bold;
+      font-weight: bold;
       font-weight: 400;
       text-transform: uppercase; }
   nav .link-title a {
@@ -968,7 +972,7 @@ nav {
     line-height: 28px;
     text-transform: uppercase; }
     nav .link-title a:hover {
-      color: #ffffff;
+      color: #999;
       font-style: normal;
       font-weight: 400;
       text-transform: uppercase; }
@@ -984,7 +988,7 @@ nav {
     fill: #999;
     opacity: 1; }
   .pf-nav-social svg {
-    fill: #FFFFFF;
+    fill: #6421ff;
     height: 31px;
     opacity: 1;
     width: 31px; }
@@ -1040,7 +1044,7 @@ nav {
     fill: #aaa;
     opacity: 1; }
   .masthead-social svg {
-    fill: #ffffff;
+    fill: #6421ff;
     height: 30px;
     opacity: 1;
     width: 30px; }
@@ -1273,8 +1277,7 @@ nav {
   .site-header {
     padding: 0px 5%; }
   .logo-wrap {
-    background-color: #6421ff;
-    max-width: 100%;
+       max-width: 100%;
     padding: 0;
     width: 100%; }
   .logo {
@@ -1422,7 +1425,7 @@ nav {
   .close-responsive-button {
     top: 30px; }
   .site-header {
-    background-color: #6421ff;
+    
     padding-bottom: 30px;
     padding-top: 30px; }
   .logo {
@@ -1534,12 +1537,14 @@ nav {
   height: 100%; }
 
 .project-cover .details {
+  background-color: #6421ff;
   display: flex;
   height: 100%;
   position: relative;
   width: 100%; }
 
 .project-cover .details-inner {
+  background-color: #6421ff;
   width: 100%; }
 
 .back-to-top .arrow {
@@ -1571,10 +1576,11 @@ nav {
     margin-right: auto;
     width: 100%; }
     .project-cover .cover-image:after {
-      background-color: #6421ff;
+  
       opacity: 0; }
   .project-cover:hover .cover-image:after, .project-cover.touch-hover .cover-image:after {
-    background-color: #6421ff;
+    background-color:#6421ff;
+    
     opacity: 1; }
   .project-cover .cover-image,
   .project-cover .cover-image:after,
