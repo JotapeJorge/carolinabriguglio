@@ -958,7 +958,7 @@ nav {
       font-weight: 400;
       text-transform: uppercase; }
     nav .page-title a.active {
-      color: #6421ff ;;
+      color: #6421ff;
       font-style: bold;
       font-weight: bold;
       font-weight: 400;
@@ -1297,7 +1297,7 @@ nav {
   .hamburger-click-area {
     display: block; }
   .hamburger i {
-    background-color: #FFFFFF; }
+    background-color: #6421ff}
   main,
   .site-container {
     width: 100%; }
